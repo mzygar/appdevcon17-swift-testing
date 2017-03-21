@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		6E19E1161E7AC2F7008AB5A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E1151E7AC2F7008AB5A4 /* AppDelegate.swift */; };
-		6E19E1181E7AC2F7008AB5A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E1171E7AC2F7008AB5A4 /* ViewController.swift */; };
 		6E19E11B1E7AC2F7008AB5A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E19E1191E7AC2F7008AB5A4 /* Main.storyboard */; };
 		6E19E11D1E7AC2F7008AB5A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E19E11C1E7AC2F7008AB5A4 /* Assets.xcassets */; };
 		6E19E1201E7AC2F7008AB5A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E19E11E1E7AC2F7008AB5A4 /* LaunchScreen.storyboard */; };
-		6E19E12B1E7AC2F7008AB5A4 /* EvilWikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E12A1E7AC2F7008AB5A4 /* EvilWikiTests.swift */; };
+		6E19E1361E7AC312008AB5A4 /* SuperVilian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E1351E7AC312008AB5A4 /* SuperVilian.swift */; };
+		6E19E1391E7AC3D1008AB5A4 /* SuperVilianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E1381E7AC3D1008AB5A4 /* SuperVilianTests.swift */; };
+		6E19E13B1E7AC89D008AB5A4 /* SuperVilianRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E13A1E7AC89D008AB5A4 /* SuperVilianRepository.swift */; };
+		6E19E13E1E7AC8E8008AB5A4 /* SuperVilianEditPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E13D1E7AC8E8008AB5A4 /* SuperVilianEditPresenter.swift */; };
+		6E19E1411E7AC9DB008AB5A4 /* SuperVilianEditPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E1401E7AC9DB008AB5A4 /* SuperVilianEditPresenterTests.swift */; };
+		6E19E1431E7ACEF0008AB5A4 /* SuperVilianEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E1421E7ACEF0008AB5A4 /* SuperVilianEditViewController.swift */; };
+		6E19E1461E7AD063008AB5A4 /* SuperVilianEditViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E1451E7AD063008AB5A4 /* SuperVilianEditViewControllerTests.swift */; };
+		6E19E14A1E7AE20A008AB5A4 /* SuperVilianEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E1491E7AE20A008AB5A4 /* SuperVilianEditView.swift */; };
+		6E19E14E1E7AEABE008AB5A4 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E14C1E7AEABE008AB5A4 /* TestData.swift */; };
+		6E19E1501E7AEB58008AB5A4 /* SuperVilian+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E19E14F1E7AEB58008AB5A4 /* SuperVilian+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +36,22 @@
 /* Begin PBXFileReference section */
 		6E19E1121E7AC2F7008AB5A4 /* EvilWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvilWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E19E1151E7AC2F7008AB5A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E19E1171E7AC2F7008AB5A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6E19E11A1E7AC2F7008AB5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E19E11C1E7AC2F7008AB5A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E19E11F1E7AC2F7008AB5A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E19E1211E7AC2F7008AB5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E19E1261E7AC2F7008AB5A4 /* EvilWikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EvilWikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E19E12A1E7AC2F7008AB5A4 /* EvilWikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvilWikiTests.swift; sourceTree = "<group>"; };
 		6E19E12C1E7AC2F7008AB5A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E19E1351E7AC312008AB5A4 /* SuperVilian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVilian.swift; sourceTree = "<group>"; };
+		6E19E1381E7AC3D1008AB5A4 /* SuperVilianTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVilianTests.swift; sourceTree = "<group>"; };
+		6E19E13A1E7AC89D008AB5A4 /* SuperVilianRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVilianRepository.swift; sourceTree = "<group>"; };
+		6E19E13D1E7AC8E8008AB5A4 /* SuperVilianEditPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVilianEditPresenter.swift; sourceTree = "<group>"; };
+		6E19E1401E7AC9DB008AB5A4 /* SuperVilianEditPresenterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVilianEditPresenterTests.swift; sourceTree = "<group>"; };
+		6E19E1421E7ACEF0008AB5A4 /* SuperVilianEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVilianEditViewController.swift; sourceTree = "<group>"; };
+		6E19E1451E7AD063008AB5A4 /* SuperVilianEditViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVilianEditViewControllerTests.swift; sourceTree = "<group>"; };
+		6E19E1491E7AE20A008AB5A4 /* SuperVilianEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperVilianEditView.swift; sourceTree = "<group>"; };
+		6E19E14C1E7AEABE008AB5A4 /* TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		6E19E14F1E7AEB58008AB5A4 /* SuperVilian+Convenience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SuperVilian+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +94,15 @@
 			isa = PBXGroup;
 			children = (
 				6E19E1151E7AC2F7008AB5A4 /* AppDelegate.swift */,
-				6E19E1171E7AC2F7008AB5A4 /* ViewController.swift */,
 				6E19E1191E7AC2F7008AB5A4 /* Main.storyboard */,
 				6E19E11C1E7AC2F7008AB5A4 /* Assets.xcassets */,
 				6E19E11E1E7AC2F7008AB5A4 /* LaunchScreen.storyboard */,
 				6E19E1211E7AC2F7008AB5A4 /* Info.plist */,
+				6E19E1351E7AC312008AB5A4 /* SuperVilian.swift */,
+				6E19E13A1E7AC89D008AB5A4 /* SuperVilianRepository.swift */,
+				6E19E13D1E7AC8E8008AB5A4 /* SuperVilianEditPresenter.swift */,
+				6E19E1491E7AE20A008AB5A4 /* SuperVilianEditView.swift */,
+				6E19E1421E7ACEF0008AB5A4 /* SuperVilianEditViewController.swift */,
 			);
 			path = EvilWiki;
 			sourceTree = "<group>";
@@ -90,8 +110,12 @@
 		6E19E1291E7AC2F7008AB5A4 /* EvilWikiTests */ = {
 			isa = PBXGroup;
 			children = (
-				6E19E12A1E7AC2F7008AB5A4 /* EvilWikiTests.swift */,
 				6E19E12C1E7AC2F7008AB5A4 /* Info.plist */,
+				6E19E1381E7AC3D1008AB5A4 /* SuperVilianTests.swift */,
+				6E19E14F1E7AEB58008AB5A4 /* SuperVilian+Convenience.swift */,
+				6E19E14C1E7AEABE008AB5A4 /* TestData.swift */,
+				6E19E1401E7AC9DB008AB5A4 /* SuperVilianEditPresenterTests.swift */,
+				6E19E1451E7AD063008AB5A4 /* SuperVilianEditViewControllerTests.swift */,
 			);
 			path = EvilWikiTests;
 			sourceTree = "<group>";
@@ -201,8 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E19E1181E7AC2F7008AB5A4 /* ViewController.swift in Sources */,
+				6E19E1431E7ACEF0008AB5A4 /* SuperVilianEditViewController.swift in Sources */,
+				6E19E13E1E7AC8E8008AB5A4 /* SuperVilianEditPresenter.swift in Sources */,
+				6E19E13B1E7AC89D008AB5A4 /* SuperVilianRepository.swift in Sources */,
+				6E19E1361E7AC312008AB5A4 /* SuperVilian.swift in Sources */,
 				6E19E1161E7AC2F7008AB5A4 /* AppDelegate.swift in Sources */,
+				6E19E14A1E7AE20A008AB5A4 /* SuperVilianEditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E19E12B1E7AC2F7008AB5A4 /* EvilWikiTests.swift in Sources */,
+				6E19E1391E7AC3D1008AB5A4 /* SuperVilianTests.swift in Sources */,
+				6E19E1461E7AD063008AB5A4 /* SuperVilianEditViewControllerTests.swift in Sources */,
+				6E19E1501E7AEB58008AB5A4 /* SuperVilian+Convenience.swift in Sources */,
+				6E19E1411E7AC9DB008AB5A4 /* SuperVilianEditPresenterTests.swift in Sources */,
+				6E19E14E1E7AEABE008AB5A4 /* TestData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
